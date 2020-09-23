@@ -1,0 +1,48 @@
+{
+  "name": "ach-nacha-builder",
+  "description": "Based on nACH with some enhancements.",
+  "version": "0.5.2",
+  "keywords": [
+    "ACH",
+    "nacha",
+    "Automated Clearing House"
+  ],
+  "contributors": [
+    {
+      "name": "Glen Selle",
+      "email": "glenselle@me.com"
+    },
+    {
+      "name": "Tom Horner",
+      "email": "tom.horner@zipline.co"
+    },
+    {
+      "name": "Yaw Joseph Etse",
+      "email": "yaw.etse@gmail.com",
+      "url": "http://about.me/yawjosephetse"
+    },
+    {
+      "name": "Corey Ballou",
+      "email": "corey@coreyballou.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ternio/ach-nacha-builder.git"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha --reporter spec --recursive"
+  },
+  "dependencies": {
+    "async": "^2.0.1",
+    "lodash": "^4.14.1",
+    "moment": "^2.14.1"
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "chai": "latest"
+  }
+}
