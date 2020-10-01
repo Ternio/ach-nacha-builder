@@ -1,7 +1,7 @@
 {
   "name": "ach-nacha-builder",
   "description": "Based on nACH with some enhancements.",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "keywords": [
     "ACH",
     "nacha",
