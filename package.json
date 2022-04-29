@@ -37,7 +37,7 @@
     "test": "NODE_ENV=test ./node_modules/.bin/mocha --reporter spec --recursive"
   },
   "dependencies": {
-    "async": "^2.0.1",
+    "async": "^2.6.4",
     "lodash": "^4.14.1",
     "moment": "^2.14.1"
   },
